@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="76.801 ns"></ZoomEndTime>
+      <Cursor1Time time="15.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="188"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/period" type="array">
+      <obj_property name="ElementShortName">period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider4">
+      <obj_property name="label">Reg_File</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/RAdress1" type="array">
+      <obj_property name="ElementShortName">RAdress1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RAdress1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/RAdress2" type="array">
+      <obj_property name="ElementShortName">RAdress2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RAdress2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/WAddress" type="array">
+      <obj_property name="ElementShortName">WAddress[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WAddress[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/WData" type="array">
+      <obj_property name="ElementShortName">WData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/RData1" type="array">
+      <obj_property name="ElementShortName">RData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/RData2" type="array">
+      <obj_property name="ElementShortName">RData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/regFile" type="array">
+      <obj_property name="ElementShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/RegisterFile/size" type="array">
+      <obj_property name="ElementShortName">size[31:0]</obj_property>
+      <obj_property name="ObjectShortName">size[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider18">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/func3" type="array">
+      <obj_property name="ElementShortName">func3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">func3[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/addr" type="array">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/offset" type="array">
+      <obj_property name="ElementShortName">offset[11:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/data_addess" type="array">
+      <obj_property name="ElementShortName">data_addess[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addess[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/uut/Dual_Memory/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:400][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:400][7:0]</obj_property>
+   </wvobject>
+</wave_config>
